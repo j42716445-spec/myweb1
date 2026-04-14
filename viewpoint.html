@@ -1,0 +1,234 @@
+<!-- 宣告網頁文件是HTML5格式 -->
+<!doctype html>
+<!-- 網頁所屬地區語言 -->
+<html lang="zh-Hant-TW">
+  <!-- 檔頭、SEO/GEO/AEO -->
+  <head>
+    <!-- 文字編碼 -->
+    <meta charset="utf-8">
+    <!-- RWD響應式網站 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 網頁作者(擁有者),品牌名稱 -->
+    <meta name="author" content="嶼行生活誌">
+    <!-- 網頁描述,網頁內容濃縮,可透過ChatGPT協助生成 -->
+    <meta name="description" content="整理台灣北中南東熱門旅遊景點,介紹自然風景、文化地標與特色活動,提供旅遊參考與景點推薦。">
+    <!-- 網頁編輯器 -->
+    <meta name="generator" content="Visual Studio Code">
+    <!-- 網頁關鍵字,網頁內容提取,可透過ChatGPT協助生成 -->
+    <meta name="keywords" content="嶼行生活誌,台灣旅遊景點,台灣景點推薦,臺灣北部景點推薦,臺灣中部景點推薦,臺灣南部景點推薦,臺灣東部景點推薦,彰化景點推薦,臺中景點推薦,淡水景點推薦,新北景點推薦,嘉義景點推薦,屏東景點推薦,台東景點推薦,花蓮景點推薦,淡水魚人碼頭,淡水老街,野柳地質公園,女王頭,蕈菇狀岩石,鹿港天后宮,鹿港老街,鹿港媽祖廟,臺中國家歌劇院,阿里山森林鐵路,阿里山國家森林遊樂區,墾丁國家公園,墾丁夜市,墾丁大街,太魯閣國家公園,靳珩橋,鹿野高台,台灣國際熱氣球嘉年華,台灣自然景觀,台灣文化景點,台灣觀光景點,台灣旅遊推薦">
+    <!-- favicon品牌Logo 第一行針對IE瀏覽器-->
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type=image/x-icon>
+    <!-- 網頁標題,包含網站名稱和網頁名稱 -->
+    <title>嶼行生活誌-景點推薦</title>
+    <!-- bootstrap雲端CSS外部檔 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <!-- 自訂的CSS -->
+    <link rel="stylesheet" href="css/custom.css">
+    <!-- GoogleIconFonts -->
+    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"> -->
+    <!-- GA追蹤碼 -->
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-NH8MZYXB9D"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-NH8MZYXB9D');
+    </script>
+  </head>
+  <!-- 網頁文本 -->
+  <body class="bg-color-beige">
+    <header class="fixed-top">
+      <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">嶼行生活誌</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">首頁</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">關於品牌</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="viewpoint.html">景點介紹</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="informaion.html">住宿資訊</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="safe.html">旅遊安全</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://toolkit.url.com.tw/bbs/index.php?email=bbs@trial-162241.url.tw" target="_blank">留言發問</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    
+    </header>
+    <main>
+    <!-- 輪播圖外層 -->
+      <div id="carouselExampleIndicators" class="carousel slide">
+        <!-- 指示器 -->
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide "></button>
+        </div>
+        <!-- 輪播圖片 -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/index/taipei-101.webp" class="d-block w-100" alt="夜晚的台北101大樓" title="夜晚的台北101大樓" aria-label="夜晚的台北101大樓">
+          </div>
+          <div class="carousel-item">
+            <img src="images/index/Hualien Beach-Taiwam.webp" class="d-block w-100" alt="花蓮海邊的午後" title="花蓮海邊的午後" aria-label="花蓮海邊的午後">
+          </div>
+          <div class="carousel-item">
+            <img src="images/index/National-Palace-Museum.webp" class="d-block w-100" alt="花蓮的太魯閣國家公園裡面,沿著中橫公路（台8線）的太魯閣峽谷路段" title="花蓮的太魯閣國家公園裡面,沿著中橫公路（台8線）的太魯閣峽谷路段" aria-label="花蓮的太魯閣國家公園裡面,沿著中橫公路（台8線）的太魯閣峽谷路段">
+          </div>
+          <div class="carousel-item">
+            <img src="images/index/Taroko National Park-Central Cross-Island Highway.webp" class="d-block w-100" alt="白天的國立故宮博物院" title="白天的國立故宮博物院" aria-label="白天的國立故宮博物院">
+          </div>
+        </div>
+        <!-- 控制器 -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>      
+      <div class="container">
+        <h2 class="alert alert-primary mt-5" role="alert">北部景點</h2>
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="card mt-4">
+              <img src="images/viewpoint/Tamsui Fisherman_s Wharf.webp" class="card-img-top" alt="淡水漁人碼頭、淡水老街,陰天,地上濕濕的,之前下過雨" title="淡水漁人碼頭、淡水老街,陰天,地上濕濕的,之前下過雨" aria-label="淡水漁人碼頭、淡水老街,陰天,地上濕濕的,之前下過雨">
+              <div class="card-body">
+                <h2 class="">淡水老街</h2>
+                <p class="card-text">淡水老街位於淡水河畔,是北台灣非常受年輕人歡迎的旅遊景點之一。老街沿著河岸延伸,結合海景、街頭小吃與歷史建築,整體氛圍既悠閒又充滿活力。走在街道上,可以看到許多特色店家與文創小店,非常適合邊逛邊拍照打卡。傍晚時分更是淡水最迷人的時刻,夕陽映照在河面上,形成著名的淡水夕照景色。<br>
+                來到淡水老街,當然不能錯過各式在地美食,例如知名的阿給、魚丸湯與巨無霸冰淇淋,都是許多遊客必吃的經典小吃。沿著河岸散步,也可以欣賞街頭藝人表演或騎乘自行車欣賞河景。整體而言,淡水老街不僅是體驗台灣在地文化的好地方,也是一個結合美食、景色與休閒氛圍的熱門旅遊地標。</p>
+                <p class="text-end"><a href="https://newtaipei.travel/zh-tw/attractions/detail/109658" target="_blank" class="btn btn-primary" role="button">淡水老街</a></p>
+
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="card mt-4">
+              <img src="images/viewpoint/Yehliu-Geopark-mushroom-rocks-New-Taipei-City.webp" class="card-img-top" alt="野柳國家公園,女王頭,蕈菇狀岩石,天氣晴朗,人很多" title="野柳國家公園,女王頭,蕈菇狀岩石,天氣晴朗,人很多" aria-label="野柳國家公園,女王頭,蕈菇狀岩石,天氣晴朗,人很多">
+              <div class="card-body">
+                <h2 class="">野柳國家公園</h2>
+                <p class="card-text">野柳地質公園位於新北市萬里區,是北海岸最具代表性的自然景點之一。這裡因長期受到海浪侵蝕與風化作用,形成許多奇特的岩石地形,其中最有名的就是造型像皇冠的「女王頭」,也是許多遊客必拍的經典地標。走在沿海步道上,可以看到各種像蘑菇、燭台或動物造型的岩石,非常有趣又充滿大自然的藝術感。<br>
+                對年輕人來說,野柳不只是看石頭的地方,更是一個超好拍照的自然景點。海岸線搭配特殊岩石地貌,隨手一拍都很有特色,尤其天氣晴朗時海天一線的景色十分壯觀。來到這裡除了欣賞地質奇景,也能感受北海岸的海風與遼闊視野,是兼具自然知識與打卡拍照的熱門旅遊景點。</p>
+                <p class="text-end"><a href="https://www.ylgeopark.org.tw" target="_blank" class="btn btn-primary" role="button">野柳國家公園</a></p>
+              </div>
+            </div>
+          </div>
+        </div>  
+        <h2 class="alert alert-primary mt-5" role="alert">中部景點</h2>
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="card mt-4">
+              <img src="images/viewpoint/Lukang-Tianhou-Temple.webp" class="card-img-top" alt="鹿港天后宮、媽祖廟,廟裡有人在拜拜" title="鹿港天后宮、媽祖廟,廟裡有人在拜拜" aria-label="鹿港天后宮、媽祖廟,廟裡有人在拜拜">
+              <div class="card-body">
+                <h2 class="">鹿港天后宮</h2>
+                <p class="card-text">鹿港天后宮位於彰化縣鹿港鎮,是台灣歷史最悠久且最具代表性的媽祖廟之一,建於明末清初,至今已有數百年歷史。廟宇建築融合閩南傳統工藝,從精緻的木雕、石雕到屋頂剪黏裝飾,都展現出高度的藝術價值與文化底蘊。走進廟埕,可以感受到濃厚的宗教氛圍與歷史氣息,是鹿港地區重要的信仰中心。<br>
+                來到鹿港天后宮,除了參拜祈福,也能欣賞細緻的古建築之美。廟前廣場常聚集許多遊客與香客,周邊街道則有許多販售傳統小吃與伴手禮的店家,如麵線糊、糕餅與古早味點心等。整體環境結合宗教文化、歷史建築與在地生活風貌,是鹿港最具代表性的文化觀光景點之一。</p>
+                <p class="text-end"><a href="https://www.lugangmazu.org/" target="_blank" class="btn btn-primary" role="button">鹿港天后宮</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="card mt-4">
+              <img src="images/viewpoint/National-Taichung-Theater.webp" class="card-img-top" alt="臺中國家歌劇院的夜景,燈火通明,前方還有一個大水池" title="臺中國家歌劇院的夜景,燈火通明,前方還有一個大水池" aria-label="臺中國家歌劇院的夜景,燈火通明,前方還有一個大水池">
+              <div class="card-body">
+                <h2 class="">臺中國家公園</h2>
+                <p class="card-text">臺中國家歌劇院位於台中市西屯區,是台灣最具代表性的文化藝術地標之一,由日本建築師伊東豊雄設計。建築以獨特的「曲牆結構」打造流動般的空間形態,被譽為世界級建築作品。館內設有大劇院、中劇院與小劇場,長期舉辦音樂會、戲劇與各類表演藝術活動,是結合建築美學與藝文展演的重要場域。<br>
+                歌劇院外觀充滿未來感與藝術氛圍,廣場與水池倒影形成極具特色的景觀,也是熱門的拍照與打卡地點。館內除了展演空間外,還設有空中花園、藝文商店與餐飲空間,遊客在欣賞建築設計之餘,也能感受豐富多元的文化體驗,是來到台中不可錯過的重要景點。</p>
+                <p class="text-end"><a href="https://www.npac-ntt.org/index" target="_blank" class="btn btn-primary" role="button">台中國家歌劇院</a></p>
+              </div>
+            </div>
+          </div>
+        </div>  
+        <h2 class="alert alert-primary mt-5" role="alert">南部景點</h2>
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="card mt-4">
+              <img src="images/viewpoint/Alishan-Forest-Railway.webp" class="card-img-top" alt="阿里山鐵路、阿里山國家森林遊樂區,天氣晴朗、樹木林立" title="阿里山鐵路、阿里山國家森林遊樂區,天氣晴朗、樹木林立" aria-label="阿里山鐵路、阿里山國家森林遊樂區,天氣晴朗、樹木林立">
+              <div class="card-body">
+                <h2 class="">阿里山鐵路</h2>
+                <p class="card-text">阿里山森林鐵路是台灣最具代表性的高山鐵道之一,興建於日治時期,最初為運送林木而設,後來轉型為觀光鐵路。鐵路自嘉義市一路蜿蜒上升至阿里山山區,沿途穿越森林、茶園與雲霧繚繞的山谷,展現台灣高山自然景觀的壯麗風貌。<br>
+                列車行駛途中會經過多座隧道、橋樑與特殊的「之字形折返」路線,是世界少見的高山鐵道工程。旅客搭乘列車緩慢前行,能近距離欣賞山林景色與四季變化,尤其清晨雲海與日出景色更是令人難忘,使阿里山鐵路成為結合歷史文化與自然景觀的經典旅遊體驗。</p>
+                <p class="text-end"><a href="https://journeyofafr.tw/Journeys" target="_blank" class="btn btn-primary" role="button">阿里山鐵路</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="card mt-4">
+              <img src="images/viewpoint/Kenting-National-Park.webp" class="card-img-top" alt="墾丁國家公園的碧海藍天" title="墾丁國家公園的碧海藍天" aria-label="墾丁國家公園的碧海藍天">
+              <div class="card-body">
+                <h2 class="">墾丁國家公園</h2>
+                <p class="card-text">墾丁國家公園位於台灣最南端的屏東縣,是台灣第一座成立的國家公園。園區涵蓋海岸、珊瑚礁、草原與熱帶森林等多樣自然景觀,擁有豐富的生態資源與壯麗的海岸地形。清澈的海水、潔白的沙灘與蔚藍天空相互映襯,展現出南台灣獨特的海洋風貌。
+                園區內著名景點包括鵝鑾鼻燈塔、南灣與龍磐公園等地,不僅能欣賞遼闊海景,也適合進行浮潛、戲水與自然探索。每年吸引大量旅客前來感受陽光、海洋與自然景觀交織而成的熱帶旅遊魅力,是台灣極具代表性的觀光勝地。</p>
+                <p class="text-end"><a href="https://www.taiwan.net.tw/m1.aspx?sNo=0001122&id=421" target="_blank" class="btn btn-primary" role="button">墾丁國家公園</a></p>
+              </div>
+            </div>
+          </div>
+        </div>  
+        <h2 class="alert alert-primary mt-5" role="alert">東部景點</h2>
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="card mt-4">
+              <img src="images/viewpoint/Jinheng-Bridge--Taroko-National-Park.webp" class="card-img-top" alt="太魯閣國家公園-靳珩橋,群山環繞、森林茂密,峽谷地勢高低起伏明顯" title="太魯閣國家公園-靳珩橋,群山環繞、森林茂密,峽谷地勢高低起伏明顯" aria-label="太魯閣國家公園-靳珩橋,群山環繞、森林茂密,峽谷地勢高低起伏明顯">
+              <div class="card-body">
+                <h2 class="">太魯閣國家公園-靳珩橋</h2>
+                <p class="card-text">太魯閣國家公園位於台灣東部的花蓮縣,以壯麗的峽谷地形與大理石岩壁聞名,是台灣最具代表性的自然景觀之一。園區內的太魯閣峽谷由立霧溪長年侵蝕切割而成,高聳的山壁與蜿蜒溪流形成壯觀的峽谷景色,展現大自然鬼斧神工的地貌。<br>
+                園區內擁有多條知名步道與景點,如長春祠、燕子口與砂卡礑步道等,沿途可欣賞峽谷、溪流與山林景觀。遊客在此不僅能體驗壯闊的自然風貌,也能深入了解台灣東部獨特的地質與生態環境。
+                </p>
+                <p class="text-end"><a href="https://www.taroko.gov.tw/ch" target="_blank" class="btn btn-primary" role="button">太魯閣國家公園</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="card mt-4">
+              <img src="images/viewpoint/Luye-Highland.webp" class="card-img-top" alt="國際熱氣球嘉年華-鹿野高台,遼闊草地山谷景色,熱氣球升空人潮熱鬧" title="國際熱氣球嘉年華-鹿野高台,遼闊草地山谷景色,熱氣球升空人潮熱鬧" aria-label="國際熱氣球嘉年華-鹿野高台,遼闊草地山谷景色,熱氣球升空人潮熱鬧">
+              <div class="card-body">
+                <h2 class="">國際熱氣球嘉年華-鹿野高台</h2>
+                <p class="card-text">鹿野高台位於臺東縣鹿野鄉,是東台灣著名的觀景與休閒景點之一。高台地勢開闊,可俯瞰遼闊的花東縱谷與周圍翠綠田野,視野相當遼闊。園區環境寬廣舒適,設有觀景平台與大片草地空間,讓遊客能在此散步、休憩並欣賞壯麗的山谷景色。<br>
+                每年夏季,鹿野高台也是臺灣國際熱氣球嘉年華的主要舉辦地。活動期間,來自世界各地的熱氣球在清晨與傍晚時分緩緩升空,形成繽紛壯觀的天空景象。現場除了熱氣球繫留體驗與飛行展示外,夜晚還會舉辦光雕音樂會,讓燈光與熱氣球交織出夢幻畫面,使鹿野高台成為台東最具代表性的觀光景點之一。
+                </p>
+                <p class="text-end"><a href="https://www.erv-nsa.gov.tw/zh-tw/attractions/detail/3" target="_blank" class="btn btn-primary" role="button">鹿野高台</a></p>
+              </div>
+            </div>
+          </div>
+        </div>  
+        <hr class="">
+      </div>
+      <footer class="container">
+        <p class="float-end"><a href="#top" class="btn btn-primary">回到頁面頂端</a></p>
+        <p>嶼行生活誌 &copy; 2026</p>
+      </footer>    
+    
+    
+    
+    </main>
+    
+    
+    <!-- Bootstrap雲端JS外部檔 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  </body>
+</html>
